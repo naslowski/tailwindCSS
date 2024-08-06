@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindCSS</title>
+    <meta name="author" content="Alex">
+</head>
+<body>
+
+    <main>
+        <section class="flex justify-center items-center min-h-screen bg-gray-100">
+            <div class="min-w-[315px] max-w-[440px] h-96 relative bg-gray-300 mx-auto shadow-md ">
+                <button class="absolute top-3 right-3 bg-white px-2.5 py-1.5 rounded-md border border-solid border-gray-200 text-xs font-medium text-gray-800">button</button>
+
+                <div class="group w-full absolute bottom-0 bg-white px-3 py-4">                        
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <p class="text-sm text-gray-500">Subheader</p>
+                            <p class="text-xl font-medium text-gray-800">Header</p>
+                        </div>
+                        <p class="text-lg font-medium text-gray-800">Text</p>
+                    </div>
+                    
+                    <div class="max-h-0 overflow-hidden group-hover:max-h-screen transition-all duration-500">
+                        <div class="grid gap-y-2 mt-3 pt-3 border-t border-gray-200 ">
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm text-gray-500">Text</p>
+                                <a href="#" class="text-sm text-gray-800">Link</a>
+                            </div>
+
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm text-gray-500">Text</p>
+                                <a href="#" class="text-sm text-gray-800">Link</a>
+                            </div>
+
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm text-gray-500">Text</p>
+                                <a href="#" class="text-sm text-gray-800">Link</a>
+                            </div>
+
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm text-gray-500">Text</p>
+                                <a href="#" class="text-sm text-gray-800">Link</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="w-full bg-gray-500 mt-3 py-3.5 text-sm font-semibold text-white rounded-lg">Button</button>
+                    <p class="mt-1 text-center text-xs text-gray-500">Sub text</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
